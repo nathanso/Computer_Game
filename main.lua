@@ -1,25 +1,27 @@
 function love.load()
+  require("entities")
+  ents.Startup()
 end
 
 function love.draw()
 end
 
-function love.update()
+function love.update(dt)
 end
 
-function love.focus()
+function love.focus(bool)
 end
 
-function love.keypressed()
+function love.keypressed(key, unicode)
 end
 
-function love.keyreleased()
+function love.keyreleased(key, unicode)
 end
 
-function love.mousepressed()
+function love.mousepressed(x, y, button)
 end
 
-function love.mousereleased()
+function love.mousereleased(x, y, button)
 end
 
 function love.quit()
